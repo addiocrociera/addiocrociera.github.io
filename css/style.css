@@ -5682,6 +5682,7 @@ a:hover {
   .insta a img,
   .twitter a img {
     margin: 0;
+    padding: 0;
   }
   .splash-image {
     height: calc(100vh - 90px);
