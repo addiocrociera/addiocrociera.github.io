@@ -5643,7 +5643,7 @@ a:hover {
 }
 @media only screen and (max-width: 600px) {
   p {
-    font-size: 13px;
+    font-size: 14px;
   }
   h1 {
     font-size: 37px;
@@ -5717,12 +5717,9 @@ a:hover {
     display: none;
   }
 }
-/* when in mobile format and multiple columsn of client list are combined- edit the margin of the last child in preceding column to make all spacing even
-Also - edit the splash page "row" to get rid of the margin. */
+
 input {
   border: 1px solid #9e9e9e;
 }
 
-footer {
-  margin-top: 10%;
-}
+
