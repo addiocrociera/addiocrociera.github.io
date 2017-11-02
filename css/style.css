@@ -5545,11 +5545,14 @@ button {
   padding: 0;
 }
 .current-projects .upcoming {
+  margin-top: 5%;
   padding: 5%;
   overflow-wrap: break-word;
 }
 .current-projects .upcoming h6 {
   font-size: 20px;
+  color: #FE5F6B;
+  margin-bottom: 3%;
 }
 .current-projects .upcoming a {
   color: #FD5D7B;
@@ -5623,7 +5626,7 @@ a:hover {
 .twitter a {
   padding-right: 0;
 }
-.twitter img {
+.twitter a img {
   max-height: 17px;
   margin: -3px 0;
 }
@@ -5682,7 +5685,8 @@ a:hover {
   .insta a img,
   .twitter a img {
     margin: 0;
-    padding: 0;
+  /*  padding-top: 3px;
+    box-sizing: border-box;*/
   }
   .splash-image {
     height: calc(100vh - 90px);
