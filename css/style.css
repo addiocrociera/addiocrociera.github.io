@@ -5547,7 +5547,7 @@ a:hover {
 .twitter a {
   padding-right: 0;
 }
-.twitter a img {
+.twitter img {
   max-height: 17px;
   margin: -3px 0;
 }
@@ -5605,8 +5605,8 @@ a:hover {
     padding-right: 1.9%;
     height: 70px;
   }
-  .insta a img,
-  .twitter a img {
+  .insta img,
+  .twitter img {
     margin: 0;
   /*  padding-top: 3px;
     box-sizing: border-box;*/
