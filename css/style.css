@@ -5368,6 +5368,7 @@ body {
   background-position: center;
   border-radius: 12px;
   background-position: right 0% bottom 17%;
+  background-position-y: 79%;
 }
 .live-image {
   height: 200px;
@@ -5376,6 +5377,8 @@ body {
   background-position: center;
   border-radius: 12px;
   background-position: right 0% bottom 35%;
+  background-position-y: 62%;
+
 }
 .studio-image {
   height: 200px;
@@ -5384,6 +5387,8 @@ body {
   background-position: center;
   border-radius: 12px;
   background-position: right 0% bottom 58%;
+  background-position-y: 95%;
+
 }
 .blog-image {
   height: 200px;
@@ -5400,6 +5405,8 @@ body {
   background-position: center;
   border-radius: 12px;
   background-position: right 0% bottom 40%;
+  background-position-y: 59%;
+
 }
 .splash {
   height: 100vh;
