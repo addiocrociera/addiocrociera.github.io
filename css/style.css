@@ -5563,6 +5563,8 @@ a:hover {
 @media only screen and (max-width: 725px) {
 }
 @media only screen and (max-width: 600px) {
+
+
   p {
     font-size: 14px;
   }
@@ -5620,6 +5622,7 @@ a:hover {
     width: auto;
     max-height: 100px;
   }
+  .clickable { cursor: pointer; }
   .client-list li {
     font-size: 13px;
     margin: 8px 0;
