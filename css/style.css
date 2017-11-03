@@ -2371,11 +2371,11 @@ button.btn-floating {
   line-height: 2.5rem;
   text-transform: none;
 }
-.dropdown-content li:hover,
+/*.dropdown-content li:hover,
 .dropdown-content li.active,
 .dropdown-content li.selected {
   background-color: #eee;
-}
+}*/
 .dropdown-content li.active.selected {
   background-color: #e1e1e1;
 }
