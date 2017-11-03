@@ -5465,17 +5465,17 @@ button {
 .column-2 {
   padding: 0;
 }
-.current-projects .upcoming {
+.current-projects .upcoming-project {
   margin-top: 5%;
   padding: 5%;
   overflow-wrap: break-word;
 }
-.current-projects .upcoming h6 {
+.current-projects .upcoming-project h6 {
   font-size: 20px;
   color: #FE5F6B;
   margin-bottom: 3%;
 }
-.current-projects .upcoming a {
+.current-projects .upcoming-project a {
   color: #FD5D7B;
   color: #FE5F6B;
 }
