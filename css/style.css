@@ -5527,10 +5527,26 @@ ul {
 a {
   color: #04c3cc;
 }
+
+/* One or more available input mechanism(s) 
+   can hover over elements with ease */
+@media (any-hover: hover) {
   a:hover {
   color: #b04155;
   outline: 0;
-} 
+}
+ }
+
+/* One or more available input mechanism(s) can hover, 
+   but not easily (e.g., many mobile devices emulate 
+   hovering when the user performs a long tap) */
+@media (any-hover: on-demand) {
+a:hover {
+  color: #b04155;
+  outline: 0;
+}
+ }
+
 .indent {
   text-indent: 2.5%;
 }
@@ -5557,6 +5573,10 @@ a {
   margin-top: 5px;
 }
 
+@media (hover:none) {
+  background: none;
+
+}
 
 @media only screen and (max-width: 992px) {
   .clients li:first-child {
