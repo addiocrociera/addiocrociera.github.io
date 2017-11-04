@@ -5533,7 +5533,6 @@ a {
 @media (any-hover: hover) {
   a:hover {
   color: #b04155;
-  outline: 0;
 }
  }
 
