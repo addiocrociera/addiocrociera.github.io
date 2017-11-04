@@ -5560,7 +5560,7 @@ a:hover {
   margin: -3px 0;
   padding: 0 2px;
 }
-.twitter a {
+.nav .tweet {
   padding-right: 0;
 }
 .twitter img {
@@ -5572,10 +5572,6 @@ a:hover {
   margin-top: 5px;
 }
 
-@media (hover:none) {
-  background: none;
-
-}
 
 @media only screen and (max-width: 992px) {
   .clients li:first-child {
