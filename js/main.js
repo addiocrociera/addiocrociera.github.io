@@ -22,7 +22,7 @@ $(function () {
     $('.nav-icon').on('click touchend', function() { 
         var link = $(this).attr('href');   
         location.href = link; // opens in new window as requested 
-        window.open(link, '_blank')
+        window.open(link)
    
     });    
 });
