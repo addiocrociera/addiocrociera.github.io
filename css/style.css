@@ -5555,7 +5555,7 @@ a:hover {
 .date {
   font-size: 12px;
 }
-.insta img {
+.insta a img {
   max-height: 17px;
   margin: -3px 0;
   padding: 0 2px;
@@ -5563,7 +5563,7 @@ a:hover {
 .nav .tweet {
   padding-right: 0;
 }
-.twitter img {
+.twitter a img {
   max-height: 17px;
   margin: -3px 0;
 }
@@ -5623,8 +5623,8 @@ a:hover {
     padding-right: 1.9%;
     height: 70px;
   }
-  .insta img,
-  .twitter img {
+  .insta a img,
+  .twitter a img {
     margin: 0;
   /*  padding-top: 3px;
     box-sizing: border-box;*/

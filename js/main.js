@@ -11,10 +11,10 @@ $(function () {
 
 $(function () {    
     $('.nav-icon').on('click', function() {
-        var link = $(this).attr('href');   
-        location.href = link; 
-        window.open(link, '_blank');
+        var link = $(this).attr('href');    
+        window.open(link);
         return false;
+
     });    
 });
 
@@ -22,7 +22,6 @@ $(function () {
 $(function () {    
     $('.nav-icon').on('touchstart', function() {
         var link = $(this).attr('href');   
-        location.href = link; 
-        window.open(link);
+        window.location.replace(link);
     });    
 });
