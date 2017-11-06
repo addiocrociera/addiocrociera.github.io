@@ -10,8 +10,8 @@ $(function () {
 });
 
 $(function () {    
-    $('.nav-icon').on('click touchend', function(e) { 
-    	e.preventDefault();
+    $('.nav-icon').on('click touchend', function(event) { 
+    	event.stopPropagation();
         var link = $(this).attr('href');   
         location.href = link; 
         window.open(link);
