@@ -10,12 +10,19 @@ $(function () {
 });
 
 $(function () {    
-    $('.nav-icon').on('click touchend', function(event) {
-    	event.preventDefault();
-    	event.stopPropagation();
+    $('.nav-icon').on('click', function() {
+        var link = $(this).attr('href');   
+        location.href = link; 
+        window.open(link, '_blank');
+        return false;
+    });    
+});
+
+
+$(function () {    
+    $('.nav-icon').on('touchstart', function() {
         var link = $(this).attr('href');   
         location.href = link; 
         window.open(link);
-
     });    
 });
