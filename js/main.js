@@ -10,7 +10,7 @@ $(function () {
 });
 
 $(function () {    
-    $('.nav-icon').on('click', function(e) {
+    $('.nav-icon').on('click touchstart', function(e) {
     	e.preventDefault();
     	console.log('hi')
         var link = $(this).attr('href');    
@@ -21,12 +21,12 @@ $(function () {
 });
 
 
-$(function () {    
-    $('.nav-icon').on('touchstart', function(e) {
-    	e.preventDefault();
-    	console.log('ho')
-        var link = $(this).attr('href');   
-        window.open(link);
+// $(function () {    
+//     $('.nav-icon').on('touchstart', function(e) {
+//     	e.preventDefault();
+//     	console.log('ho')
+//         var link = $(this).attr('href');   
+//         window.open(link);
 
-    });    
-});
+//     });    
+// });
