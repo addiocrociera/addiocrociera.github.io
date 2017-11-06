@@ -10,23 +10,10 @@ $(function () {
 });
 
 $(function () {    
-    $('.nav-icon').on('click touchstart', function(e) {
+    $('.nav-icon').on('click touchend', function(e) {
     	e.preventDefault();
-    	console.log('hi')
         var link = $(this).attr('href');    
         window.open(link);
-
-
+        console.log('what')
     });    
 });
-
-
-// $(function () {    
-//     $('.nav-icon').on('touchstart', function(e) {
-//     	e.preventDefault();
-//     	console.log('ho')
-//         var link = $(this).attr('href');   
-//         window.open(link);
-
-//     });    
-// });
