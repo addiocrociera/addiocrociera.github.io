@@ -13,7 +13,7 @@ $(function () {
     $('.nav-icon').on('click touchend', function() { 
         var link = $(this).attr('href');   
         location.href = link; 
-        window.open(link)
+        window.open(link, '_blank');
         return false;
     });    
 });
