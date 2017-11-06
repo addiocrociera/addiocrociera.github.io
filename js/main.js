@@ -10,18 +10,23 @@ $(function () {
 });
 
 $(function () {    
-    $('.nav-icon').on('click', function() {
+    $('.nav-icon').on('click', function(e) {
+    	e.preventDefault();
+    	console.log('hi')
         var link = $(this).attr('href');    
         window.open(link);
-        return false;
+
 
     });    
 });
 
 
 $(function () {    
-    $('.nav-icon').on('touchstart', function() {
+    $('.nav-icon').on('touchstart', function(e) {
+    	e.preventDefault();
+    	console.log('ho')
         var link = $(this).attr('href');   
-        window.location.replace(link);
+        window.open(link);
+
     });    
 });
