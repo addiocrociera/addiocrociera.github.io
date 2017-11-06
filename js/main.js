@@ -10,10 +10,11 @@ $(function () {
 });
 
 $(function () {    
-    $('.nav-icon').on('click touchend', function() { 
+    $('.nav-icon').on('click touchend', function(e) { 
+    	e.preventDefault();
         var link = $(this).attr('href');   
         location.href = link; 
-        window.open(link, '_blank');
-        return false;
+        window.open(link);
+
     });    
 });
