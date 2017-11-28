@@ -5321,7 +5321,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.row header {
+.row > header {
   position: fixed;
   background-color: white;
   height: 100px;
@@ -5619,8 +5619,8 @@ a:hover {
   .row header {
     margin: 0;
     padding-top: 15px;
-    padding-left: 1.9%;
-    padding-right: 1.9%;
+    padding-left: 2%;
+    padding-right: 2%;
     height: 70px;
   }
   .insta a img,

@@ -1,6 +1,4 @@
-console.log('this works');
-
-
+// console.log('js connected');
 
 $(function () {    
     $('.drop').on('click touchend', function() { 
