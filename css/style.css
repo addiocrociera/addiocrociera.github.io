@@ -5356,14 +5356,14 @@ body {
 }
 .splash-image {
   height: calc(100vh - 120px);
-  background-image: url("../img/studio.jpg");
+  background-image: url("../img/studio.png");
   background-size: cover;
   background-position: right 50% bottom 70%;
   border-radius: 30px;
 }
 .about-image {
   height: 200px;
-  background-image: url("../img/portrait_glasses2.jpg");
+  background-image: url("../img/portrait_glasses2.png");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -5372,7 +5372,7 @@ body {
 }
 .live-image {
   height: 200px;
-  background-image: url("../img/live.jpg");
+  background-image: url("../img/live.png");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -5382,7 +5382,7 @@ body {
 }
 .studio-image {
   height: 200px;
-  background-image: url("../img/vuslant2.jpg");
+  background-image: url("../img/vuslant2.png");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -5400,7 +5400,7 @@ body {
 }
 .current-image {
   height: 200px;
-  background-image: url("../img/records.jpg");
+  background-image: url("../img/records.png");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
