@@ -5538,11 +5538,16 @@ a {
   }
  .dropdown-links {
     position: relative;
-    top: 43%;
+    top: 50%;
     transform: translateY(-50%);
   }
   .dropdown-links li {
     margin-top: 15%;
+    font-weight: bold;
+ /*   letter-spacing: 5px;*/
+  }
+  .dropdown-links li:first-child {
+    margin-top: 0;
   }
   #hamburger {
     width: 31px;
