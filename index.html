@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/styleCombined.css">
 </head>
 <body> 
 <div class="container">
@@ -16,7 +16,7 @@
 <!-- ======================================================================== -->
 <!-- ============================== HEADER ================================== -->
 <!-- ======================================================================== -->
-  <div class="row no-top">
+  <div class="row no-row-margin">
     <header>
       <div class="col s10 m12 l12">
         <a href="#home">
@@ -24,6 +24,7 @@
          </a>
       </div>
 
+      <!-- Mobile Nav -->
       <div class="col s1 offset-s1 m0 l0">
         <!-- Dropdown Trigger -->
         <a class='dropdown-button right' href='#' data-activates='dropdown1'>
@@ -32,15 +33,18 @@
 
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content'>
+          <div class="dropdown-links">
           <li><a class="drop" href="#about">ABOUT</a></li>
           <li><a class="drop" href="#upcoming">UPCOMING</a></li>
           <li><a class="drop" href="#live">LIVE</a></li>
           <li><a class="drop" href="#studio">STUDIO</a></li>
           <li class="insta"><a class="nav-icon" href="https://www.instagram.com/timiseler/"><img src="img/instag.png" /></a></li>
           <li class="twitter"><a class="nav-icon" href="https://twitter.com/timiseler?lang=en"><img src="img/tweet.png" /></a></li>
+        </div>
         </ul>
       </div>
 
+      <!-- Desktop Nav -->
       <div class="nav">
         <div class="col l12 m12 s12" >
           <ul>
@@ -61,7 +65,7 @@
   <!-- ============================== SPLASH ================================== -->
   <!-- ======================================================================== -->
   <div class="splash">
-    <div class="row no-top">
+    <div class="row no-row-margin">
       <div class="col l12 m12 s12">
         <a id="home">
           <div class="jump_space"></div>
@@ -82,7 +86,7 @@
 <!-- ============================== ABOUT ================================== -->
 <!-- ======================================================================= -->
   <div class="about-section">
-    <div class="row  no-top">
+    <div class="row  no-row-margin">
       <div class="col l12 m12 s12">
         <a id="about">
           <div class="jump_space"></div>
@@ -113,10 +117,10 @@
 
 
 <!-- ======================================================================= -->
-<!-- ============================== CURRENT ================================ -->
+<!-- ============================== UPCOMING =============================== -->
 <!-- ======================================================================= -->
   <div class="current-section">
-    <div class="row  no-top">
+    <div class="row  no-row-margin">
       <div class="col l12 m12 s12">
         <a id="upcoming">
           <div class="jump_space"></div>
@@ -126,7 +130,7 @@
 
     <div class="row">
       <div class="col l12 m12 s12 center">
-        <div class="current-image responsive-img"></div>
+        <div class="upcoming-image responsive-img"></div>
       </div>
     </div>
 
@@ -137,7 +141,7 @@
     </div>
 
     <div class="row">
-      <div class="current-projects">
+      <div class="upcoming-items">
         <div class="col s12 m6 l6 upcoming-project center">
           <a href="http://www.hissgoldenmessenger.com/" target="_blank"><h6>Hiss Golden Messenger</h6></a>
           <p>Tour Manager / Front of House</p>
@@ -156,7 +160,7 @@
 <!-- =============================== LIVE ================================== -->
 <!-- ======================================================================= -->
   <div class="live-section">
-    <div class="row no-top">
+    <div class="row no-row-margin">
       <div class="col l12 m12 s12">
         <a id="live">
           <div class="jump_space"></div>
@@ -244,8 +248,8 @@
 <!-- ============================== STUDIO ================================= -->
 <!-- ======================================================================= -->
   <div class="studio-section">
-    <div class="row no-top">
-      <div class="col l12 m12 s12 no-top">
+    <div class="row no-row-margin">
+      <div class="col l12 m12 s12">
         <a id="studio"><div class="jump_space"></div></a>
       </div>
     </div>
@@ -343,7 +347,7 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
-<script src="js/materialize.js"></script>
+<script src="js/materialize.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

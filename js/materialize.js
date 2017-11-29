@@ -638,13 +638,13 @@ if ($) {
         var open = false;
         origin.unbind('click.' + origin.attr('id'));
         // Hover handler to show dropdown
-        origin.on('mouseenter', function(e){ // Mouse over
+        origin.on('mouseenter touchstart', function(e){ // Mouse over
           if (open === false) {
             placeDropdown();
             open = true;
           }
         });
-        origin.on('mouseleave', function(e){
+        origin.on('mouseleave touchstart', function(e){
           // If hover on origin then to something other than dropdown content, then close
           var toEl = e.toElement || e.relatedTarget; // added browser compatibility for target element
           if(!$(toEl).closest('.dropdown-content').is(activates)) {
@@ -654,7 +654,7 @@ if ($) {
           }
         });
 
-        activates.on('mouseleave', function(e){ // Mouse out
+        activates.on('mousedown touchstart', function(e){ // Mouse out
           var toEl = e.toElement || e.relatedTarget;
           if(!$(toEl).closest('.dropdown-button').is(origin)) {
             activates.stop(true, true);
