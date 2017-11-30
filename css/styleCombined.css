@@ -5479,9 +5479,6 @@ a {
 .date {
   font-size: 12px;
 }
-li:active { 
-    background-color: yellow;
-}
 /* One or more available input mechanism(s) 
    can hover over elements with ease */
 @media (any-hover: hover) {
