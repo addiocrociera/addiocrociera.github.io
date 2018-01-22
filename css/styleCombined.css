@@ -1002,7 +1002,7 @@ input[type=range] + .thumb {
 }
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1200px;
   width: 90%;
 }
 @media only screen and (min-width: 601px) {
@@ -5400,7 +5400,7 @@ a {
 .splash-image {
   height: calc(100vh - 120px);
   min-width: 100%;
-  background-image: url("../img/studio.png");
+  background-image: url("../img/studio.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right 50% bottom 70%;
@@ -5420,35 +5420,35 @@ a {
 .live-image {
   height: 200px;
   min-width: 100%;
-  background-image: url("../img/live.png");
+  background-image: url("../img/dots.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 12px;
-  background-position: right 0% bottom 35%;
-  background-position-y: 62%;
+  background-position: right 0% bottom 18%;
+/*  background-position-y: 62%;*/
 }
 .studio-image {
   height: 200px;
   min-width: 100%;
-  background-image: url("../img/vuslant2.png");
+  background-image: url("../img/keys3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 12px;
-  background-position: right 0% bottom 58%;
-  background-position-y: 95%;
+  background-position: right 0% bottom 60%;
+/*  background-position-y: 95%;*/
 }
 .upcoming-image {
   height: 200px;
   min-width: 100%;
-  background-image: url("../img/records.png");
+  background-image: url("../img/texturepaint.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 12px;
-  background-position: right 0% bottom 40%;
-  background-position-y: 59%;
+  background-position: right 0% bottom 20%;
+/*  background-position-y: 59%;*/
 }
 .upcoming-items .upcoming-project {
   margin-top: 5%;
