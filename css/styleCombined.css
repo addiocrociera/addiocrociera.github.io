@@ -5597,6 +5597,7 @@ a {
     background-position: right 65% bottom 50%;
   }
   .splash-image {
+    min-height: 400px;
     height: calc(100vh - 90px);
     background-position: right 50% bottom 100%;
   }
